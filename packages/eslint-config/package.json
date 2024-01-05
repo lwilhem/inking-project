@@ -1,0 +1,19 @@
+{
+  "name": "@inking/eslint-config",
+  "type": "module",
+  "license": "MIT",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "scripts": {
+    "lint": "eslint . --fix"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@eslint/eslintrc": "^3.0.0",
+    "eslint-plugin-format": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.1",
+    "eslint": "^8.56.0"
+  }
+}

@@ -1,0 +1,35 @@
+# Nuxt dev/build outputs
+.output
+.data
+.nuxt
+.nitro
+.cache
+.vercel
+dist
+target
+dist-electron
+
+# Node dependencies
+node_modules
+*.pnp
+*.pnp.*
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.turbo
+.vscode/*
+!.vscode/settings.json
+
+# Local env files
+.nx
+.nx/cache
+.env
+.env.*
+.turbo
+!.env.example

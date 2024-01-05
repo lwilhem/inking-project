@@ -1,0 +1,14 @@
+{
+  "name": "@inking/desktop",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev -p 3000",
+    "lint": "eslint . --fix",
+    "build": "nuxt build"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.0"
+  }
+}
