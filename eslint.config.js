@@ -1,3 +1,3 @@
-import defineEslintConfig from '@inking/eslint-config'
+import antfu from '@antfu/eslint-config'
 
-export default defineEslintConfig()
+export default antfu({})
